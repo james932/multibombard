@@ -1,0 +1,22 @@
+
+
+Bombard package - TODO
+
+LONG TERM
+- Bundle everything together into the same package, allowing for it to be run on both hpc and laptops and for repeated bombardments and multi bombards
+- Get it on git and using version control
+- Working on both DIRAC and Blue crystal
+- sort out file naming and structure for multi bombard
+-progress bar not working for bc4, move log file immediately so need to look
+For something else.
+
+SHORT TERM
+- lint not working properly, missing some of the xyz files for some reason.
+- get some actual useful values out of the analysis, notable max displacement of atoms needs to exclude the movement form the periodic BC
+√ - Get it working on bluecrystal
+- does it work with other features such as (111) diamond or graphite layers
+- Auto adjust atom producing region
+- Calculate ion flux in analysis (maybe have this as an input? Would need time period as well)
+- For a true comparison need to use the same random seeds?
+
+- Calculate surface, after equilibrating run, average out top however many atoms in the top layer (might actually be bottom layer, 
